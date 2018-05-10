@@ -1,0 +1,29 @@
+{
+	"scopeName": "source.kukulkan",
+	"name": "Kukulkan",
+	"fileTypes": [
+		"kukulkan",
+		"3k"
+	],
+	"patterns": [
+		{
+			"name": "string.quoted.double.kukulkan",
+			"begin": "\"",
+			"end": "\""
+		},
+		{
+			"name": "string.quoted.single.kukulkan",
+			"begin": "'",
+			"end": "'"
+		},
+		{
+			"name": "comment.line.kukulkan",
+			"match": "//.+"
+		},
+		{
+			"name": "comment.block.kukulkan",
+			"begin": "/\\*",
+			"end": "\\*/"
+		}
+	]
+}
