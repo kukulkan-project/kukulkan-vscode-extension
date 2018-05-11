@@ -42,7 +42,7 @@ export function activate(context: ExtensionContext) {
     // Options to control the language client
     let clientOptions: LanguageClientOptions = {
         // Register the server for plain text documents
-        documentSelector: ['3k'],
+        documentSelector: ['3k', 'kukulkan'],
         synchronize: {
             // Synchronize the setting section 'kukulkanLanguageServer' to the server
             configurationSection: 'kukulkanLanguageServer',
