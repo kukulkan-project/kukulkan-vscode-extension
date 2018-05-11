@@ -6,7 +6,7 @@
     "publisher": "Infotec",
     "license": "MIT",
     "repository": {
-        "url": ""
+        "url": "https://github.com/robertovillarejo/kukulkan-vscode-extension.git"
     },
     "engines": {
         "vscode": "^1.17.0"

@@ -7,6 +7,14 @@
 	],
 	"patterns": [
 		{
+			"name": "keyword.control.kukulkan",
+			"match": "(?<=[^\\w-]|^)(ManyToMany|ManyToOne|OneToMany|OneToOne|dto|entity|max|maxbytes|maxlength|min|minbytes|minlength|pattern|required)(?=[^\\w-]|$)"
+		},
+		{
+			"name": "keyword.datatypes.kukulkan",
+			"match": "(?<=[^\\w-]|^)(String|Integer|Long|BigDecimal|Float|Double|Boolean|LocalDate|ZonedDateTime|Blob|AnyBlob|ImageBlob|TextBlob|Instant)(?=[^\\w-]|$)"
+		},
+		{
 			"name": "string.quoted.double.kukulkan",
 			"begin": "\"",
 			"end": "\""

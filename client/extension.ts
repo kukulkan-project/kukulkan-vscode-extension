@@ -47,7 +47,10 @@ export function activate(context: ExtensionContext) {
             // Synchronize the setting section 'kukulkanLanguageServer' to the server
             configurationSection: 'kukulkanLanguageServer',
             // Notify the server about file changes to '.3k files contain in the workspace
-            fileEvents: workspace.createFileSystemWatcher('**/*.3k')
+            fileEvents: [
+                workspace.createFileSystemWatcher('**/*.3k'),
+                workspace.createFileSystemWatcher('**/*.kukulkan')
+            ]
         }
     }
 
