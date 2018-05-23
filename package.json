@@ -8,6 +8,7 @@
     "repository": {
         "url": "https://github.com/robertovillarejo/kukulkan-vscode-extension.git"
     },
+    "icon": "./images/kukulkan.png",
     "engines": {
         "vscode": "^1.17.0"
     },
