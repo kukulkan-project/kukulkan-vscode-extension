@@ -1,5 +1,4 @@
-entity Persona {
-    nombre: String,
+entity Persona{    nombre: String,
     apellido: String,
     fechaNacimiento: LocalDate
 }
