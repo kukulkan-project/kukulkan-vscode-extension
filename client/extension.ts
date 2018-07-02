@@ -48,7 +48,7 @@ export function activate(context: ExtensionContext) {
             configurationSection: 'kukulkanLanguageServer',
             // Notify the server about file changes to '.3k files contain in the workspace
             fileEvents: [
-                workspace.createFileSystemWatcher('src/*.{3k,kukulkan}'),
+                workspace.createFileSystemWatcher('*.{3k,kukulkan}'),
             ]
         }
     }

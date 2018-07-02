@@ -8,11 +8,11 @@
 	"patterns": [
 		{
 			"name": "keyword.control.kukulkan",
-			"match": "(?<=[^\\w-]|^)(ManyToMany|ManyToOne|OneToMany|OneToOne|dto|entity|max|maxbytes|maxlength|min|minbytes|minlength|pattern|required)(?=[^\\w-]|$)"
+			"match": "(ManyToMany|ManyToOne|OneToMany|OneToOne|dto|entity|CoreUser|max|maxbytes|maxlength|min|minbytes|minlength|pattern|required)"
 		},
 		{
 			"name": "keyword.datatypes.kukulkan",
-			"match": "(?<=[^\\w-]|^)(String|Integer|Long|BigDecimal|Float|Double|Boolean|LocalDate|ZonedDateTime|Blob|AnyBlob|ImageBlob|TextBlob|Instant)(?=[^\\w-]|$)"
+			"match": "(String|Integer|Long|BigDecimal|Float|Double|Boolean|LocalDate|ZonedDateTime|Blob|AnyBlob|ImageBlob|TextBlob|Instant)"
 		},
 		{
 			"name": "string.quoted.double.kukulkan",
