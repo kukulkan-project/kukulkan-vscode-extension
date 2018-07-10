@@ -1,8 +1,8 @@
 {
     "name": "kukulkan-vscode",
     "displayName": "Kukulkan VS Code Extension",
-    "description": "Kukulkan editor support for VS Code, based on Kukulkan-LSP.",
-    "version": "1.6.0",
+    "description": "The VS Code extension for Kukulkan Grammar",
+    "version": "0.1.0",
     "publisher": "Infotec",
     "license": "MIT",
     "repository": {
