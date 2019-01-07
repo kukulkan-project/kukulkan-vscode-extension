@@ -8,7 +8,7 @@
 	"patterns": [
 		{
 			"name": "keyword.control.kukulkan",
-			"match": "(ManyToMany|ManyToOne|OneToMany|OneToOne|dto|entity|CoreUser|max|maxbytes|maxlength|min|minbytes|minlength|pattern|required|views|as|Sheet|Page|->)"
+			"match": "(ManyToMany|ManyToOne|OneToMany|OneToOne|dto|entity|CoreUser|max|maxbytes|maxlength|min|minbytes|minlength|pattern|required|views|as|Sheet|Page|->|auditable)"
 		},
 		{
 			"name": "keyword.datatypes.kukulkan",
