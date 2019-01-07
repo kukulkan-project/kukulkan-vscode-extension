@@ -2,3 +2,11 @@ entity Persona{    nombre: String,
     apellido: String,
     fechaNacimiento: LocalDate
 }
+
+views {
+    Persona as Sheet
+}
+
+auditable {
+    Persona
+}
