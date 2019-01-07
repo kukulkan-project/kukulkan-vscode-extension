@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v1.0.0
+Add __auditable section__ for listing entities as auditable.
+
 ## v0.2.0
 Add views section for defining the view type for each entity: `Page` or `Sheet`.  
 `Page` is the default view type for all entities. 
